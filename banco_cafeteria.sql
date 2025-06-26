@@ -18,8 +18,10 @@ CREATE TABLE pedidos (
 INSERT INTO produtos (id, nome, preco) VALUES (1, 'Café Expresso', 5.00);
 INSERT INTO produtos (id, nome, preco) VALUES (2, 'Pão de Queijo', 4.50);
 INSERT INTO produtos (id, nome, preco) VALUES (3, 'Café Cappuccino', 8.50);
+INSERT INTO produtos (id, nome, preco) VALUES (4, 'Café Pingado', 6.50);
 
 -- Inserção de dados na tabela pedidos
 INSERT INTO pedidos (id, id_produto, quantidade, data_pedido) VALUES (1, 1, 2, '2025-06-25');
 INSERT INTO pedidos (id, id_produto, quantidade, data_pedido) VALUES (2, 2, 1, '2025-06-25');
 INSERT INTO pedidos (id, id_produto, quantidade, data_pedido) VALUES (3, 3, 1, '2025-06-24');
+INSERT INTO pedidos (id, id_produto, quantidade, data_pedido) VALUES (4, 4, 3, '2025-06-24');
